@@ -1,0 +1,15 @@
+﻿<Window x:Class="test_C.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:test_C"
+        mc:Ignorable="d"
+        Title="Проверка фразы на закрытые скобки" Height="200" Width="400" >
+    <Grid>
+        <Button Content="Проверить фразу" HorizontalAlignment="Left" Margin="10,111,0,0" VerticalAlignment="Top" Width="116" Height="46" Click="Button_Click"/>
+        <TextBox x:Name ="TB_test" HorizontalAlignment="Left" Height="60" Margin="10,46,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="295"/>
+        <Label x:Name ="Label_test" Content="" HorizontalAlignment="Left" Margin="10,13,0,0" VerticalAlignment="Top" Width="295" Height="28"/>
+
+    </Grid>
+</Window>
